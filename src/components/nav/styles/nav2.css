@@ -1,0 +1,73 @@
+.nav2{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #559F94;
+    position: sticky;
+    top: 0;
+}
+.logo2{
+    margin-left: 6rem;
+    width: fit-content;
+}
+.logo2 h3{
+    padding: 5px 10px;
+    background-color: #fff;
+    margin-top: 1.3rem;
+}
+.links2{
+    display: flex;
+    margin-right: 3rem;
+}
+.links2 li{
+    display: inline;
+    margin: 1.5rem 3rem 0 0;
+}
+.links2 li .link{
+    font-weight: 600;
+    color: #fff;
+
+}
+#menu{
+    display: none;
+}
+.active{
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.338);
+    border-radius: 10px;
+    color: #000;
+    font-weight: 600;
+    
+}
+
+@media screen and (max-width: 1000px){
+    nav .logo2{
+        margin-left: 2rem;
+    }
+    nav .links2{
+        width: 100%;
+        height: 20vh;
+        margin-top: 5rem;
+        position: absolute;
+        flex-flow: column wrap;
+        background-color: #559F94;
+        display: none;
+    }
+    nav .links2 li{
+        margin: 0;
+        margin: 1rem 0 0 2rem;
+        width: 100%;
+    }
+    nav .links2 li a{
+        color: #fff;
+        width: 100%;
+    }
+
+
+
+    #menu{
+        display: block;
+    }
+    
+}

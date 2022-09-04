@@ -1,0 +1,103 @@
+.sign-in{
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+}
+.sign-in-input1{
+    background-image: url(../../../Asset/images/person.png);
+    background-size: 35px;
+    width: 45%;
+}
+.sign-in-input2{
+    width: 45%;
+}
+.sign-in-input1::placeholder, .sign-in-input2::placeholder{
+    font-size: 14px;
+}
+.sign-in-btn{
+    padding: 12px 40px;
+    border-radius: 10px;
+    background-color: #559F94;
+    color: #fff;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.links-group{
+    margin-top: 2rem;
+}
+.lecturer2{
+    margin: 0 2rem 0 10rem;
+}
+.forgot-pwd{
+    color: red;
+    font-weight: 600;
+}
+.group{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.group .account{
+    padding: 10px;
+}
+.group .sign-up2{
+    font-weight: 600;
+    margin-left: 0.5rem;
+    padding: 10px 40px;
+    border: 2px solid #559F94;
+    border-radius: 10px;
+    color: #000;
+}
+.image-container img{
+    margin-top: 2.5rem;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .sign-in{
+        flex-flow: column-reverse wrap;
+    }
+    .sign-in .left{
+        width: 100%;
+    }
+    .sign-in-input1, .sign-in-input2{
+        width: 80%;
+    }
+    .sign-in-btn{
+        margin-top: 2rem;
+    }
+    .links-group{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .lecturer2{
+        margin: 0;
+        margin-top: 1.5rem;
+    }
+    .forgot-pwd{
+        margin-top: 1.5rem;
+    }
+    .group{
+        margin-top: 1.5rem;
+        justify-content: space-between;
+    }
+    .group .account{
+        padding: 0;
+        margin-top: 10px;
+    }
+    .group .sign-up2{
+        margin-left: 0;
+        padding: 10px 30px;
+        width: fit-content;
+    }
+    .sign-in .image-container{
+        width: 100%;
+    }
+    .image-container img{
+        margin-top: 1rem;
+    }
+
+}

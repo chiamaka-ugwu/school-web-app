@@ -1,0 +1,28 @@
+.dashboard-title{
+    margin: 1rem 0 1rem 5rem;
+}
+.course-area2{
+    height: auto;
+    background-color: #CFE4E1;
+    border-radius: 10px;
+}
+.submit-courses{
+    float: right;
+    margin-top: 1rem;
+    color: #559F94;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 1000px){
+    .dashboard-title{
+        margin: 1rem 0 1rem 1rem;
+    }
+    .course-reg{
+        width: 93%;
+    }
+    .submit-courses{
+        float: right;
+        margin: 1rem 1rem 0 0;
+    }
+}

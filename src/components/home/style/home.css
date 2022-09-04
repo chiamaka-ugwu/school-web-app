@@ -1,0 +1,65 @@
+main.home{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+main .home-left{
+    width: 50%;
+    text-align: center;
+}
+main .home-left h2{
+    margin-top: 10rem;
+}
+main .home-right{
+    width: 50%;
+}
+main .home-right img{
+    width: 100%;
+}
+main .home-right .btn-container{
+    width: fit-content;
+    margin: auto;
+}
+main .home-right button{
+    background-color: #C4C4C4;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 1rem 1rem 0 0;
+}
+main .home-right button.active{
+    background-color: #559F94;
+}
+main .home-right button:hover{
+    background-color: #559F94;
+    transition: 0.5s ease-in;
+}
+
+
+@media screen and (max-width: 1000px) {
+    main.home{
+        width: 90%;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-bottom: 9rem;
+    }
+    main .home-left{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    main .home-left h2{
+        margin-top: 0;
+    }
+    main .home-right{
+        width: 100%;
+    }
+    .home-right .btn-container{
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+    
+}
