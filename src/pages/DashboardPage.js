@@ -8,7 +8,7 @@ const DashboardPage = () => {
     return (
         <>
             <Nav2 />
-            <Dashboard />
+            <Dashboard details="Student Details" />
         </>
     )
 }
