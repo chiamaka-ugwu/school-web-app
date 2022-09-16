@@ -38,6 +38,22 @@ main .home-right button:hover{
     transition: 0.5s ease-in;
 }
 
+.carousel{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.carousel-status {
+    display: none;
+}
+
+.thumbs-wrapper {
+    display: none;
+}
+.carousel .control-dots {
+    position: relative !important;
+}
+
+
 
 @media screen and (max-width: 1000px) {
     main.home{

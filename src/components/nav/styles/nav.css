@@ -6,6 +6,7 @@ nav{
     background-color: #559F94;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 nav .logo{
     margin-left: 6rem;
@@ -35,6 +36,9 @@ nav .links ul li .link{
 #menu{
     display: none;
 }
+.none{
+    display: none;
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -46,7 +50,6 @@ nav .links ul li .link{
         height: 20vh;
         margin-top: 5rem;
         position: absolute;
-        display: none;
     }
     nav .links ul{
         flex-flow: column wrap;
@@ -66,9 +69,11 @@ nav .links ul li .link{
         display: block;
         margin: 1.5rem 2rem 0 0;
         color: #fff;
-        /* color: #559F94; */
         font-weight: 600;
         font-size: 1.3rem;
         font-style: italic;
+    }
+    .false{
+        display: none;
     }
 }

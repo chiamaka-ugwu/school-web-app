@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles/password.css';
 import { Link } from 'react-router-dom';
 import image from '../../Asset/images/login2.png'
 
 
 const CreateNewPassword = () => {
-    const [modal , setModal] = useState(false);
 
     return (
         <>

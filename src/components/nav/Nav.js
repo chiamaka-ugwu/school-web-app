@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import "./styles/nav.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faClose } from '@fortawesome/free-solid-svg-icons'
+
 
 const Nav = ({signin, signup}) => {
-    const [menu, setMenu] = useState(false);
-    
+    const [open, setOpen] = useState(false);
+    const toggle = () => setOpen(!open);
 
     return (
         <nav>
@@ -13,28 +17,49 @@ const Nav = ({signin, signup}) => {
                     <Link to="/" className="logo-link">Logo</Link>
                 </h3>
             </div>
-            <div className="links">
+            <div className="links false">
                 <ul>
                     <li>
-                        <Link to="/signin" className={`link ${signin}`}>Sign in</Link>
+                        <Link to="/signin" className={`link ${signin}`} onClick={toggle}>Sign in</Link>
                     </li>
                     <li>
-                        <Link to="/signup" className={`link ${signup}`}>Sign up</Link>
+                        <Link to="/signup" className={`link ${signup}`} onClick={toggle}>Sign up</Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <Link to="/course-reg" className="link">Course Registration</Link>
+                        <Link to="/course-reg" className="link" onClick={toggle}>Course Registration</Link>
                     </li>
                     <li>
-                        <Link to="/timetable" className="link">Timetable</Link>
+                        <Link to="/timetable" className="link" onClick={toggle}>Timetable</Link>
                     </li>
                     <li>
-                        <Link to="/courses" className="link">Courses</Link>
+                        <Link to="/courses" className="link" onClick={toggle}>Courses</Link>
                     </li>
                 </ul>
             </div>
-            <p id="menu">menu</p>
+            <div className={open ? "links " : "none"}>
+                <ul>
+                    <li>
+                        <Link to="/signin" className={`link ${signin}`} onClick={toggle}>Sign in</Link>
+                    </li>
+                    <li>
+                        <Link to="/signup" className={`link ${signup}`} onClick={toggle}>Sign up</Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <Link to="/course-reg" className="link" onClick={toggle}>Course Registration</Link>
+                    </li>
+                    <li>
+                        <Link to="/timetable" className="link" onClick={toggle}>Timetable</Link>
+                    </li>
+                    <li>
+                        <Link to="/courses" className="link" onClick={toggle}>Courses</Link>
+                    </li>
+                </ul>
+            </div>
+            <div id="menu" onClick={toggle}><FontAwesomeIcon icon={open ? faClose : faBars} size="lg"  /></div>
         </nav>
   );
 };
