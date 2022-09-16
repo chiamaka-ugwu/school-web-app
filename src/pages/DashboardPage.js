@@ -4,6 +4,7 @@ import Dashboard from '../components/dashboard/Dashboard';
 
 
 const DashboardPage = () => {
+    window.scroll(0, 0)
     return (
         <>
             <Nav2 />

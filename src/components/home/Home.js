@@ -12,7 +12,12 @@ const Home = () => {
         <main className='home'>
             <div className="home-left">
                 <h2>Lorem Ipsum</h2>
-                <p className='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p className='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
             </div>
             <div className="home-right">
                 <Carousel autoPlay

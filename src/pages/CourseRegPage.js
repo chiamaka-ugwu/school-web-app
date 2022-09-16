@@ -4,6 +4,7 @@ import CourseReg from '../components/course-reg/CourseReg'
 
 
 const CourseRegPage = () => {
+    window.scroll(0, 0)
     return (
         <>
             <Nav2 courseReg="active" />

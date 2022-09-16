@@ -5,6 +5,7 @@ import Footer from '../components/footer/Footer'
 
 
 const SignInPage = () => {
+    window.scroll(0, 0)
     return (
         <>
             <Nav signin="active" />

@@ -17,7 +17,7 @@ const Nav2 = ({courseReg, courses, timetable}) => {
                         <Link to="/" className='logo-link'>Logo</Link>
                     </h3>
                 </div>
-                <ul className='links2 false'>
+                <ul className='links2 f'>
                     <li>
                         <Link to="/course-reg" className={`link ${courseReg}`} onClick={toggle}>Course Registration</Link>
                     </li>
@@ -28,7 +28,7 @@ const Nav2 = ({courseReg, courses, timetable}) => {
                         <Link to="/timetable" className={`link ${timetable}`} onClick={toggle}>Timetable</Link>
                     </li>
                 </ul>
-                <ul className={open ? "links2" : "none"}>
+                <ul className={open ? "links2" : "n"}>
                     <li>
                         <Link to="/course-reg" className={`link ${courseReg}`} onClick={toggle}>Course Registration</Link>
                     </li>

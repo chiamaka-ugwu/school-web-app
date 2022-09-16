@@ -38,7 +38,9 @@
     border-radius: 10px;
     color: #000;
     font-weight: 600;
-    
+}
+.n{
+    display: none;
 }
 
 @media screen and (max-width: 1000px){
@@ -52,7 +54,6 @@
         position: absolute;
         flex-flow: column wrap;
         background-color: #559F94;
-        display: none;
     }
     nav .links2 li{
         margin: 0;
@@ -63,11 +64,11 @@
         color: #fff;
         width: 100%;
     }
-
-
-
     #menu{
         display: block;
+    }
+    .f{
+        display: none;
     }
     
 }

@@ -6,6 +6,7 @@ import Footer from '../components/footer/Footer';
 
 
 const ConfirmationPage = () => {
+    window.scroll(0, 0)
     return (
         <>
             <Nav />

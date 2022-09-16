@@ -5,6 +5,7 @@ import Footer from '../components/footer/Footer';
 
 
 const SignUpLecturerPage2 = () => {
+    window.scroll(0, 0)
     return (
         <>
             <Nav3 />
