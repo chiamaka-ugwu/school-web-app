@@ -221,4 +221,33 @@ main .right img, .img-container img{
         margin: 3rem 0;
     }
 
+
+    /* SIGN UP LECTURER 2 */
+    .continue-group{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .continue{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .new-group{
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+        justify-content: unset;
+        /* align-items: center; */
+        margin-top: 2rem;
+    }
+    .not-you{
+        margin-bottom: -1rem;
+    }
+    .submit{
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    
+
+
 }

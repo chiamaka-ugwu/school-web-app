@@ -12,6 +12,10 @@ main .home-left{
 main .home-left h2{
     margin-top: 10rem;
 }
+main .home-left p{
+    width: 80%;
+    margin: auto;
+}
 main .home-right{
     width: 50%;
 }
@@ -69,6 +73,9 @@ main .home-right button:hover{
     main .home-left h2{
         margin-top: 0;
     }
+    main .home-left p{
+        width: 100%;
+    }    
     main .home-right{
         width: 100%;
     }

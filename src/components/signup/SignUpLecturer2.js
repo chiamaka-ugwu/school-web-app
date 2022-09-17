@@ -21,7 +21,7 @@ const SignUpLecturer2 = () => {
                         </div>
                     </form>
                     <div className="new-group">
-                        <h4>Not you?</h4>
+                        <h4 className='not-you'>Not you?</h4>
                         <input className='create-pwd-input sign-in-input1 new-code' type="text" placeholder='Enter Staff code' />
                         <input className='submit-btn submit' type="submit" value='Submit' />
                     </div>
