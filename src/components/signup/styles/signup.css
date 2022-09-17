@@ -233,7 +233,7 @@ main .right img, .img-container img{
         margin-right: 0;
     }
     .new-group{
-        width: 80%;
+        width: 90%;
         margin: auto;
         flex-direction: column;
         justify-content: unset;
