@@ -69,9 +69,7 @@ nav .links ul li .link{
         display: block;
         margin: 1.5rem 2rem 0 0;
         color: #fff;
-        font-weight: 600;
         font-size: 1.3rem;
-        font-style: italic;
     }
     .false{
         display: none;

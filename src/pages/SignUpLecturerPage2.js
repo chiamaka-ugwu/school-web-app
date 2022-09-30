@@ -8,7 +8,7 @@ const SignUpLecturerPage2 = () => {
     window.scroll(0, 0)
     return (
         <>
-            <Nav3 />
+            <Nav3 signup="active" />
             <SignUpLecturer2 />
             <Footer />
         </>

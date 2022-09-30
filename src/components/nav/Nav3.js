@@ -42,7 +42,7 @@ const Nav3 = ({signin, signup}) => {
                 <div className={open ? "links " : "none"}>
                     <ul>
                         <li>
-                            <Link to="/signin-lecturer" className={`link ${signin}`} onClick={toggle}>Sign in</Link>
+                            <Link to="/sign-in-lecturer" className={`link ${signin}`} onClick={toggle}>Sign in</Link>
                         </li>
                         <li>
                             <Link to="/signup-lecturer" className={`link ${signup}`} onClick={toggle}>Sign up</Link>
